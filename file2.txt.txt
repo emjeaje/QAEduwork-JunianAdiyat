@@ -1,1 +1,3 @@
 ini adalah isi dari file2.txt
+
+ini contoh kalimat apapun berdasarkan soal.
