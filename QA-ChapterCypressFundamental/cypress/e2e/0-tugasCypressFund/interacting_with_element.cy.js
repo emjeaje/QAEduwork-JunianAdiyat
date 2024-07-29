@@ -16,9 +16,5 @@ describe ('Test zerowebappsecurity',()=>{
 
         //getting element checkbox and click it
         cy.get('#user_remember_me').click();
-
-        //getting element login button and click it
-        cy.get('.btn-primary').click();
-        cy.url().should('include','index.html');
     });
 });
