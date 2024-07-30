@@ -6,5 +6,13 @@
     "invalid" : {
         "uname" : "username1",
         "pwd" : "password1"
+    },
+    "sauce_valid" : {
+        "uname" : "standard_user",
+        "pwd" : "secret_sauce"
+    },
+    "sauce_invalid" : {
+        "uname" : "ujicoba",
+        "pwd" : "ujicoba"
     }
 }
