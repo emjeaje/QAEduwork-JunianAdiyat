@@ -1,0 +1,14 @@
+{
+  "name": "QA-ChapterCypressAdvanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "emjeajeonduty",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^13.13.1"
+  },
+  "scripts": {
+    "cy:open" : "cypress open",
+    "cy:run" : "cypress run"
+  }
+}

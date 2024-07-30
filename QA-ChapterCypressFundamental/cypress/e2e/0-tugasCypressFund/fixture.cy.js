@@ -23,9 +23,10 @@ describe ('Test saucedemo',()=>{
    // it('Should login with valid data',()=>{
    // });
    //visit link
-   it('Should add item to chart',()=>{
+   it('Should add item sauce labs backpack to chart',()=>{
        Isidata();
        cy.get('#add-to-cart-sauce-labs-backpack').click();
        cy.get('#add-to-cart-sauce-labs-fleece-jacket').click();
    });
+   
 });
