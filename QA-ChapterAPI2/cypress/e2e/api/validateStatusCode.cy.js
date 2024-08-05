@@ -1,4 +1,4 @@
-describe('Validate Headers Response', () => {
+describe('Validate Status Code Response', () => {
     //cara 1
     it('coba validate status code', () => {
         cy.request('https://pokeapi.co/api/v2/pokemon/ditto').as('pokemon');
@@ -16,6 +16,4 @@ describe('Validate Headers Response', () => {
             expect(response.status).equal(200);
         })
     });
-    it
-
 });
